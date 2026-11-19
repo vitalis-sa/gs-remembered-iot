@@ -1,0 +1,19 @@
+# Segredos: nunca versionar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Exports do n8n com credenciais ou usuario de teste
+*teste do chat*.json
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+
+# Export original do n8n (usar a copia limpa em workflows/)
+rememberED - chat assistente.json
